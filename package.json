@@ -3,6 +3,13 @@
   "version": "6.5.4",
   "description": "EC cryptography",
   "main": "lib/elliptic.js",
+  "exports": {
+    ".": {
+      "require": "./dist/elliptic.js",
+      "import": "./dist/elliptic.js",
+      "browser": "./dist/elliptic.min.js"
+    }
+  },
   "files": [
     "lib"
   ],
